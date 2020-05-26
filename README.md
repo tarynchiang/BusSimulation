@@ -1,4 +1,6 @@
 
+# BusSimulation
+
 ### Running the Transit Simulator and Visualization:
 
 #### Step by step for instructions for CSE Labs machines or vole users
@@ -10,7 +12,7 @@
 2. Make and run the server:
 ```
 $ cd src
-$ make 
+$ make
 $ cd ..
 $./build/bin/vis_sim <port_number>
 ```
@@ -20,7 +22,7 @@ $./build/bin/vis_sim <port_number>
 ```
 http://127.0.0.1:<port_number>/web_graphics/project.html
 ```
-  
+
 #### Step by step instructions for ssh users
 You can SSH using a Windows machine with Git Bash.
 ```
@@ -34,7 +36,7 @@ ssh -L <port number>:127.0.0.1:<port_number> <x500>@<cse_labs_computer>.cselabs.
 2. make and start server:
 ```
 $ cd src
-$ make 
+$ make
 $ cd ..
 $./build/bin/vis_sim <port_number>
 ```
@@ -44,16 +46,3 @@ $./build/bin/vis_sim <port_number>
 ```
 http://127.0.0.1:<port_number>/web_graphics/project.html
 ```
-**NOTE**: As part of your development process, you should ensure that **all Tests** pass before pushing any changes. 
-
-### To Compile and Run Unit Tests created with Google Test:
-
-- cd `tests`
-- `make`
-- `../build/bin/unittest`
-
-### Style Check:
-
-- `[path_to_cpplint]/cpplint/cpplint-cse.sh --root=[path_target_dir] [file_name]`
-
-# BusSimulation
